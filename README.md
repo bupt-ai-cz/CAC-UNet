@@ -23,6 +23,7 @@ https://digestpath2019.grand-challenge.org/Dataset/
 
 To download the the DigestPath2019 dataset, please sign the DATABASE USE AGREEMENT first at here:
 https://digestpath2019.grand-challenge.org/Download/
+If you have problems about downing the dataset, please contact us.
 
 Image sample:
 ![](https://github.com/PkuMaplee/Multi-level-colonoscopy-malignant-tissue-detection-with-adversarial-CAC-UNet/blob/master/sample-image.jpg)

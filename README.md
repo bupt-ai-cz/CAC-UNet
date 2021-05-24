@@ -5,18 +5,6 @@ DigestPath 2019
 
 The proposed scheme in this paper achieves the best results in MICCAI DigestPath2019 challenge (https://digestpath2019.grand-challenge.org/Home/) on colonoscopy tissue segmentation and classification task.
 
-## Citation
-Please cite this paper in your publications if it helps your research:
-
-```
-@article{zhu2020multi,
-  title={Multi-level colonoscopy malignant tissue detection with adversarial CAC-UNet},
-  author={Zhu, Chuang and Mei, Ke and Peng, Ting and Luo, Yihao and Liu, Jun and Wang, Ying and Jin, Mulan},
-  journal={arXiv preprint arXiv:2006.15954},
-  year={2020}
-}
-```
-
 ## Dataset
 Description of dataset can be found here:
 https://digestpath2019.grand-challenge.org/Dataset/
@@ -63,4 +51,35 @@ $ python preprocessing.py
 $ cd code/
 $ python train.py --config_file='config/cac-unet-r50.yaml'
 ```
+## Citation
+Please cite this paper in your publications if it helps your research:
 
+```
+@article{zhu2020multi,
+  title={Multi-level colonoscopy malignant tissue detection with adversarial CAC-UNet},
+  author={Zhu, Chuang and Mei, Ke and Peng, Ting and Luo, Yihao and Liu, Jun and Wang, Ying and Jin, Mulan},
+  journal={arXiv preprint arXiv:2006.15954},
+  year={2020}
+}
+```
+
+About the multi-level adversarial segmentation part, you can read our [ICASSP](https://arxiv.org/pdf/2002.08587.pdf) for more details:
+
+```
+@inproceedings{mei2020cross,
+  title={Cross-stained segmentation from renal biopsy images using multi-level adversarial learning},
+  author={Mei, Ke and Zhu, Chuang and Jiang, Lei and Liu, Jun and Qiao, Yuanyuan},
+  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1424--1428},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+
+## Author
+Ke Mei, Ting Peng, Chuang Zhu
+- email: raykoo@bupt.edu.cn；czhu@bupt.edu.cn
+- wechat: meikekekeke
+
+If you have any questions, you can contact me directly.

@@ -63,7 +63,7 @@ Please cite this paper in your publications if it helps your research:
 }
 ```
 
-About the multi-level adversarial segmentation part, you can read our [ICASSP](https://arxiv.org/pdf/2002.08587.pdf) for more details:
+About the multi-level adversarial segmentation part, you can read our [ICASSP](https://arxiv.org/pdf/2002.08587.pdf) paper for more details:
 
 ```
 @inproceedings{mei2020cross,
